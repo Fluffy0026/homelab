@@ -19,7 +19,7 @@ app-template:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
       hosts:
-        - host: &host home.khuedoan.com
+        - host: &host home.fluffysystems.net
           paths:
             - path: /
               pathType: Prefix
@@ -61,76 +61,76 @@ app-template:
         services.yaml: |
           - Popular:
             - Matrix:
-                href: https://chat.khuedoan.com
+                href: https://chat.fluffysystems.net
                 description: Chat client
                 icon: element.svg
             - Jellyfin:
-                href: https://jellyfin.khuedoan.com
+                href: https://jellyfin.fluffysystems.net
                 description: Media system (movies, music, etc.)
                 icon: jellyfin.svg
             - Jellyseerr:
-                href: https://jellyseerr.khuedoan.com
+                href: https://jellyseerr.fluffysystems.net
                 description: Request media
                 icon: jellyseerr.svg
             - Paperless:
-                href: https://paperless.khuedoan.com
+                href: https://paperless.fluffysystems.net
                 description: Document management system
                 icon: paperless.svg
           - Management:
             - Transmission:
-                href: https://transmission.khuedoan.com
+                href: https://transmission.fluffysystems.net
                 description: Bittorrent client
                 icon: transmission.svg
             - Prowlarr:
-                href: https://prowlarr.khuedoan.com
+                href: https://prowlarr.fluffysystems.net
                 description: Indexer manager
                 icon: prowlarr.svg
             - Radarr:
-                href: https://radarr.khuedoan.com
+                href: https://radarr.fluffysystems.net
                 description: Movie manager
                 icon: radarr.svg
             - Sonarr:
-                href: https://sonarr.khuedoan.com
+                href: https://sonarr.fluffysystems.net
                 description: TV show manager
                 icon: sonarr.svg
             - Kanidm:
-                href: https://auth.khuedoan.com
+                href: https://auth.fluffysystems.net
                 description: Identity management
-                icon: https://auth.khuedoan.com/pkg/img/logo-square.svg
+                icon: https://auth.fluffysystems.net/pkg/img/logo-square.svg
           - Development:
             - Gitea:
-                href: https://git.khuedoan.com
+                href: https://git.fluffysystems.net
                 description: Git forge
                 icon: gitea.svg
             - Woodpecker:
-                href: https://ci.khuedoan.com
+                href: https://ci.fluffysystems.net
                 description: Continuous integration
                 icon: woodpecker-ci.svg
             - ArgoCD:
-                href: https://argocd.khuedoan.com
+                href: https://argocd.fluffysystems.net
                 description: Continuous deployment
                 icon: argocd.svg
             - Registry:
-                href: https://registry.khuedoan.com
+                href: https://registry.fluffysystems.net
                 description: Container registry
                 icon: docker.svg
             - Grafana:
-                href: https://grafana.khuedoan.com
+                href: https://grafana.fluffysystems.net
                 description: Observability dashboards
                 icon: grafana.svg
           - Utilities:
             - Excalidraw:
-                href: https://draw.khuedoan.com
+                href: https://draw.fluffysystems.net
                 description: Virtual whiteboard
                 icon: excalidraw.svg
             - Speedtest:
-                href: https://speedtest.khuedoan.com
+                href: https://speedtest.fluffysystems.net
                 description: Internal network speed test
                 icon: openspeedtest.png
         bookmarks.yaml: |
           - Homelab:
             - Documentation:
-              - href: https://homelab.khuedoan.com
+              - href: https://homelab.fluffysystems.net
                 icon: google-docs.svg
             - Public homelab repository:
               - href: https://github.com/khuedoan/homelab
